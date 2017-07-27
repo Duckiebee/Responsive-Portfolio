@@ -1,0 +1,306 @@
+body {
+	margin: 0 auto;
+	padding: 0px 15px 0px 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+	line-height: 25px;
+}
+
+#submitContact {
+	color: #FFFFFF;
+	background-color: #4aaaa5;
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	float: left;
+	padding: 10px;
+}
+
+#header {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	height: 20px;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+
+.connectWithMe {
+	color: #4aaaa5;
+	background-color: #FFFFFF;
+	width: 30%;
+	float: right;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.connectWithMeHeader {
+	border-bottom: solid #777777;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h1, h2, a  {
+	color: #4aaaa5;
+}
+
+#aboutMeHeader, #contactHeader, #portfolioHeader {
+	border-bottom: solid #777777;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	overflow: auto;
+	margin: 0 auto;
+}
+
+#aboutMeBox, #contactBox, #portfolioBox {
+	background-color: #FFFFFF;
+	color: #777777;
+	margin-bottom: 20px;
+	width: 50%;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.footer {
+	background-color: #666666;
+	color:#777777;
+	border-top: solid #4aaaa5;
+    text-align: center;
+	height: 60px;
+	margin: auto;
+    padding-top: 30px;
+
+}
+
+.portfolioLink {
+	border-right: solid #777777;
+	border-left: solid #777777;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pageLinks {
+	float: right;
+	margin-top: 15px;
+}
+
+.bioImage {
+	float: left;
+	height: 150px;
+	padding: 10px;
+}
+
+.background {
+	background-image: url("../images/featherBackground.png");
+	border: solid #666666;
+	border-bottom: solid #4aaaa5;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.connectWithMeLinks {
+	width: 100%;
+}
+
+.gamesPic {
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+}
+
+#gameTag {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	height: 20px;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center; 
+	padding-top: 5px;
+	padding-bottom: 20px;
+	width: 100%;
+	position: absolute;
+}
+
+#hangman, #triviaGame, #rockPaperScissors {
+	position:relative;
+	height: 120px;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	width: 35%;
+	float: left;
+} 
+
+#rpgGame, #rutgersInfo {
+	position:relative;
+	z-index: 2;
+	height: 120px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	width: 35%;
+	float: right;
+}
+
+#hangman {
+	background-image: url("../images/abstract.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#triviaGame {
+	background-image: url("../images/CAT2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#rockPaperScissors {
+	background-image: url("../images/Pig.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#rpgGame {
+	background-image: url("../images/ants.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#rutgersInfo {
+	background-image: url("../images/cats-q-c-640-480-3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#games {
+margin: 0 auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+	height: 150px;
+	width:100%;
+}
+
+.linkImage {
+    position: relative;
+    float: left;
+    width: 50px 100%;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+	.bioImage {
+		width:100%;
+		height:350px;
+	}
+	#aboutMeBox, #contactBox {
+		width: 50%;		
+	}
+	#portfolioBox {
+		width: 30%;
+	}
+
+	#hangman, #triviaGame, #rockPaperScissors, #rpgGame, #rutgersInfo {
+		width: 70%;
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#gameTag {
+		margin-top: 80px;
+	}
+
+	 .name {
+	 	margin-left: 80px;
+	 }
+
+	 #portfolioBox{
+	 	margin-left: 95px;
+	 }
+
+	.pageLinks {
+		margin-right: 80px;
+	}
+
+	.connectWithMe{
+		margin-right: 95px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+	#aboutMeBox, #contactBox, #portfolioBox, .connectWithMe {
+		width: 94%;
+	}	
+}
+
+@media screen and (max-width: 641px) {
+	.name, .pageLinks {
+		width: 100%;
+		text-align: center;
+	}
+	.background {
+		margin-top: 60px;
+	}
+	.portfolioLink {
+		margin-left: 70px;
+		margin-right: 70px;
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.bioImage {
+		width:100%;
+		height:400px;
+	}
+	#aboutMeBox, #contactBox, #portfolioBox, .connectWithMe {
+		width: 94%;
+	}
+	body {
+		padding: 0px;
+	}
+	#header {
+		margin: 0px;
+		position: static;
+	}
+
+	#gameTag {
+		margin-top: 150px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	#hangman, #triviaGame, #rockPaperScissors, #rpgGame, #rutgersInfo {
+		width: 70%;
+		height: 200px;
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
