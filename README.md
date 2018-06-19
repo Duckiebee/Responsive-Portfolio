@@ -1,4 +1,2 @@
-# Responsive-Portfolio
-
-A mobile friendly portfolio using html, css, and bootstrap.
-
+# duckiebee.github.io
+Portfolio

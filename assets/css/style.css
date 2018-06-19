@@ -133,7 +133,7 @@ h1, h2, a  {
 	position: absolute;
 }
 
-#hangman, #triviaGame, #rockPaperScissors {
+#hangman, #triviaGame, #trailHunter {
 	position:relative;
 	height: 120px;
 	margin-left: 25px;
@@ -142,7 +142,7 @@ h1, h2, a  {
 	float: left;
 } 
 
-#rpgGame, #rutgersInfo {
+#mixIt, #crystalCollector {
 	position:relative;
 	z-index: 2;
 	height: 120px;
@@ -153,35 +153,35 @@ h1, h2, a  {
 }
 
 #hangman {
-	background-image: url("../images/abstract.jpg");
+	background-image: url("../images/HarryPotterHangman.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #triviaGame {
-	background-image: url("../images/CAT2.jpg");
+	background-image: url("../images/HarryPotterTrivia.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-#rockPaperScissors {
-	background-image: url("../images/Pig.jpg");
+#trailHunter {
+	background-image: url("../images/TrailHunter.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-#rpgGame {
-	background-image: url("../images/ants.jpg");
+#mixIt {
+	background-image: url("../images/MinionDj.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-#rutgersInfo {
-	background-image: url("../images/cats-q-c-640-480-3.jpg");
+#crystalCollector {
+	background-image: url("../images/CrystalCollector.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -224,7 +224,7 @@ textarea {
 		width: 30%;
 	}
 
-	#hangman, #triviaGame, #rockPaperScissors, #rpgGame, #rutgersInfo {
+	#hangman, #triviaGame, #trailHunter, #mixIt, #crystalCollector {
 		width: 70%;
 		float: none;
 		margin: auto;
@@ -294,7 +294,7 @@ textarea {
 		padding-bottom: 30px;
 	}
 
-	#hangman, #triviaGame, #rockPaperScissors, #rpgGame, #rutgersInfo {
+	#hangman, #triviaGame, #trailHunter, #mixIt, #crystalCollector {
 		width: 70%;
 		height: 200px;
 		float: none;
